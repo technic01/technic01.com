@@ -1,0 +1,36 @@
+.bgvideo{
+    width: 100%;
+    height: 70vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.effect {
+    width: 100%;
+    height: 70vh;
+    position: absolute;
+    left: 0;
+    top: 0;
+    object-fit: cover;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.249);
+}
+
+
+.bgvideo video {
+    width: 100%;
+    height: 70vh;
+    position: absolute;
+    left: 0;
+    top: 0;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.video-text {
+    color: aliceblue;
+    z-index: 2;
+}

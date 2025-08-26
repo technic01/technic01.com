@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
+
+body {
+    font-family: Montserrat, serif;
+    background: linear-gradient(90deg, #521c76 0%, #000000 100%);
+}
+
+p {
+    color: aliceblue;
+}
+.nav-link {
+    color:rgb(152, 113, 207)
+}
+.navbar-nav .nav-link.active {
+    color: aliceblue;
+}
+.navbar-brand img {
+    width: 40px;
+}
+.navbar-toggler {
+    background-color: aliceblue;
+}
+.sidebar {
+    color: rgb(176, 199, 218);
+    background: linear-gradient(270deg, #521c76 0%, #000000 100%);
+}
+
+.card {
+    background: linear-gradient(270deg, #521c76 0%, #000000 100%);
+    color:rgb(176, 199, 218);
+
+}
+
+.card a {
+    text-decoration: none;
+    color:rgb(176, 199, 218);
+}
+.style-text {
+    color:rgb(176, 199, 218);
+    margin: auto auto;
+}
+.call-anim {
+    animation: myAnim 2s ease 0s 1 normal forwards;
+}
+
+@keyframes myAnim {
+	0%,
+	50%,
+	100% {
+		opacity: 1;
+	}
+
+	25%,
+	75% {
+		opacity: 0;
+	}
+}
+
+
+
+@media (max-widht: 755px) {
+    .carousel-indicators {
+        display: none;
+    }
+}
+.footer-text {
+    color:rgb(176, 199, 218);
+    margin: auto auto;
+}
+.btn-outline-primary,
+footer {
+    background: linear-gradient(270deg, #521c76 0%, #000000 100%);
+}
+
+.media-liksd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
